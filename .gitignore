@@ -293,3 +293,6 @@ dist
 
 # Database files
 backend/database/eventloop_db.db-journal
+
+# Flask Config files
+backend/config.py
