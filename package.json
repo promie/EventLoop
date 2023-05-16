@@ -1,0 +1,19 @@
+{
+  "name": "capstone-project-9900-h18p-hackstreetboys",
+  "version": "1.0.0",
+  "description": "EventLoop",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && python3 app.py\" \"cd frontend && npm run start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unsw-cse-comp3900-9900-22T3/capstone-project-9900-h18p-hackstreetboys.git"
+  },
+  "author": "Hackstreet Boys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unsw-cse-comp3900-9900-22T3/capstone-project-9900-h18p-hackstreetboys/issues"
+  },
+  "homepage": "https://github.com/unsw-cse-comp3900-9900-22T3/capstone-project-9900-h18p-hackstreetboys#readme"
+}

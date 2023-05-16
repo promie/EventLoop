@@ -1,0 +1,3 @@
+import ConnectionPermissionNotification from './ConnectionPermissionNotification'
+
+export default ConnectionPermissionNotification

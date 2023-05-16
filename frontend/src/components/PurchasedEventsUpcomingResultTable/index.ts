@@ -1,0 +1,3 @@
+import PurchasedEventsUpcomingResultTable from './PurchasedEventsUpcomingResultTable'
+
+export default PurchasedEventsUpcomingResultTable
