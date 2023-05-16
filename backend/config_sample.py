@@ -19,9 +19,10 @@ class Config:
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     MAIL_USERNAME = 'apikey'
-    MAIL_PASSWORD = os.getenv('SENDGRID_API_KEY', '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')
-    MAIL_DEFAULT_SENDER = os.getenv('MAIL_DEFAULT_SENDER', 'noreply.eventloop22@gmail.com')
-    # Email Password = eventloopUNSW22
+    # Sendgrid API Key to be added
+    MAIL_PASSWORD = os.getenv('SENDGRID_API_KEY', 'dummy_key')
+    # Sender Email to be added
+    MAIL_DEFAULT_SENDER = os.getenv('MAIL_DEFAULT_SENDER', 'dummy_email')
     
 
 # Settings for testing
